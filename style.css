@@ -1,70 +1,75 @@
-body {
+
+body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777;
-    background:#777;
-    width:960px;
-   
-    
+    background: #777;
+    width: 960px;
+    font-size: 18px;
 }
 
-.main {
-    color:#777;
-    font-family: 'Arial','Helvetica Neue',Helvetica,sans-serif;
-    font-size:18px;
-    text-align:center;
+header{
+    background: #ebebeb;
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-left: 150px;
 }
 
-header, nav, footer {
-    Background: #ebebeb;
-    margin: 30px;
-    padding:20px;
-    width:900px;
-    height: 100px;
-
-}
-  
-section {
-    margin:30px;
-    display:inline-block;
-    width:495px;
-    height: 300px;
-    overflow:hidden;
-    float:left;
-    color:#777;
-    background:#ebebeb;
+nav{
+    background: #ebebeb;
+    padding: 30px;
+    margin-bottom: 20px;
+    margin-left: 150px;
 }
 
-
-article {
-    padding:10px;
-    color:#ebebeb;
-    background:#777;
-    margin:10px;
-
+section{
+    background: #ebebeb;
+    float:  left;
+    line-height: 150%;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    padding: 30px 10px 30px 10px;
+    width: 495px;
 }
 
-.paragraph, .heading{
-    color:#777;
-    background:#ebebeb;
-    margin: 5px;
-    padding: 5px;
+* {
+    box-sizing: border-box;
+    text-align: center;
 }
 
-#aside {
-    background:#ebebeb;
-    margin:30px;
-    float:left;
-    width:345px;
-    height:300px;
+article{
+    color: #ebebeb;
+    background: #777;
+    margin-top: 15px;
+    padding: 10px 20px 10px 20px;   
 }
 
-
-footer {
-    margin-bottom: 0;
-    clear: both;
+h1, h2, h3{
+    background: #ebebeb;
+    color: #777;
+    padding: 30px;
 }
 
-.clearfix::after{
-    content:"";
-    display:block;
-    clear:both;
+p{
+    background: #ebebeb;
+    color: #777;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+aside{
+    background: #ebebeb;
+    float:  right;
+    margin-top: 0px;
+    padding: 30px 20px 20px 30px;
+    height: 268px;
+    width: 30%;
+}
+
+footer{
+    background: #ebebeb;
+    padding: 30px;
+    margin-bottom: 20px;
+    margin-top: 300px;
+    margin-left: 150px;
 }
